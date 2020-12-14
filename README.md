@@ -9,4 +9,4 @@
 * Eclipse / Java , Jsp
 
 데이터베이스
-* Dbeaver(관리 툴) , Oracle
+* Dbeaver(관리 툴) / Oracle
