@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/b_pointrank"
+        android:title="PointRank"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/outline_sort_black_36"
+        android:iconTint="@android:color/white"/>
+
+    <item
+        android:id="@+id/b_News"
+        android:title="News"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/outline_article_black_36"
+        android:iconTint="@android:color/white"/>
+
+    <item android:id="@+id/b_easywritting"
+        android:title="Writting"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/outline_create_black_24"
+        android:iconTint="@android:color/white"/>
+</menu>

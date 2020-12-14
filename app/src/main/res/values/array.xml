@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>선택하세요</item>
+        <item>@string/Acategory</item>
+        <item>@string/Bcategory</item>
+        <item>@string/Ccategory</item>
+        <item>@string/Dcategory</item>
+        <item>@string/Ecategory</item>
+        <item>@string/Fcategory</item>
+        <item>@string/Gcategory</item>
+        <item>@string/Hcategory</item>
+        <item>@string/Icategory</item>
+    </string-array>
+</resources>

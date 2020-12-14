@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.myPage.Question.QnaFragment"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/qna_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="고객 센터 정보 입력창(수정 필요) "/>
+
+        <Button
+            android:id="@+id/QNAwriting_button"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 : 1 문의"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:background="@drawable/button_style"/>
+
+    </LinearLayout>
+
+</LinearLayout>

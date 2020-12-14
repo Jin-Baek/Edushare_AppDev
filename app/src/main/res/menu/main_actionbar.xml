@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Search"
+        android:title="Search Icon"
+        app:showAsAction="always|collapseActionView"
+        android:enabled="true"
+        android:icon="@drawable/searchicon"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item
+        android:id="@+id/Info"
+        android:title="Info Icon"
+        app:showAsAction="always"
+        android:icon="@drawable/infoicon"
+        android:enabled="true"/>
+
+</menu>

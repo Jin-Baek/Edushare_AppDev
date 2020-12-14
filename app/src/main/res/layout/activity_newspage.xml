@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.news.NewspageActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/news_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/news_title"
+            android:text="제목 입력"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="20sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:id="@+id/layout_first"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ytn_site"
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="YTN"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="20sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:id="@+id/layout_second"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sejong_site"
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="세종특별자치시 홈페이지"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="20sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:id="@+id/layout_third"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/josun_site"
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="조선일레"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </TableRow>
+        <TableRow>
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="20sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:id="@+id/layout_fourth"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hani_site"
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="한겨레"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.myPage.Question.FaqChild.Faq_child1Fragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@android:color/white">
+
+                <Button
+                    android:id="@+id/child4_btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="창업 지원과정이 어떻게 이루어지나요?"
+                    android:background="@drawable/mypage_borderdown"
+                    android:drawableEnd="@drawable/outline_keyboard_arrow_down_black_18"
+                    android:textAlignment="textStart"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/btn1_layout"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:lineSpacingExtra="10dp"
+                    android:textSize="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/faq_child4_1"/>
+
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@android:color/white">
+
+                <Button
+                    android:id="@+id/child4_btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="취업 연계는 따로 없나요?"
+                    android:background="@drawable/mypage_borderdown"
+                    android:drawableEnd="@drawable/outline_keyboard_arrow_down_black_18"
+                    android:textAlignment="textStart"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/btn2_layout"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:lineSpacingExtra="10dp"
+                    android:textSize="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/faq_child4_2"/>
+
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@android:color/white">
+
+                <Button
+                    android:id="@+id/child4_btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="중도 포기 가능한가요?"
+                    android:background="@drawable/mypage_borderdown"
+                    android:drawableEnd="@drawable/outline_keyboard_arrow_down_black_18"
+                    android:textAlignment="textStart"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/btn3_layout"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:lineSpacingExtra="10dp"
+                    android:textSize="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/faq_child4_3"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

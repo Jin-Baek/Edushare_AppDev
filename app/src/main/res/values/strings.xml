@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name"><b>EduShare</b></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title"><b>나의 프로필</b></string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="searchText">검색어를 입력하세요</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_mypage">Mypage</string>
+    <string name="menu_board">Board</string>
+    <string name="board_subtitle">카테고리 목록</string>
+    <string name="mypage_button_QNA">1:1 문의</string>
+    <string name="mypage_button_FAQ">자주하는 질문</string>
+    <string name="mypage_button_help">이용안내</string>
+    <string name="mypage_button_logout">로그아웃 </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pointrank">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="traffic_board">교통/주차 카테고리</string>
+    <string name="writing_title"><font color='#000000'><b>글쓰기</b></font></string>
+    <string name="category_title"><font color='#000000'><b>카테고리</b></font></string>
+    <string name="news">News</string>
+    <string name="Acategory">교육(사)</string>
+    <string name="Bcategory">교육(공)</string>
+    <string name="Ccategory">교통 수단</string>
+    <string name="Dcategory">주차 공간</string>
+    <string name="Ecategory">관광 시설</string>
+    <string name="Fcategory">일상</string>
+    <string name="Gcategory">편의시설</string>
+    <string name="Hcategory">여가시설</string>
+    <string name="Icategory">기타</string>
+    <string name="news_title">오늘의 뉴스</string>
+</resources>
