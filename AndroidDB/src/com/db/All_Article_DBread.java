@@ -15,9 +15,9 @@ public class All_Article_DBread {
 	   }
 	   
 		String driver ="oracle.jdbc.driver.OracleDriver";
-		String url = "jdbc:oracle:thin:@112.220.19.35:1521:ORCL";
-		String userId ="training";
-		String userPw="training";
+		String url = "jdbc:oracle:thin:@000.000.00.00:0000:ORCL";
+		String userId ="xxxxx";
+		String userPw="xxxxx";
 
 	   private String returns="";
 	   private Connection conn = null;
